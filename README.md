@@ -23,6 +23,6 @@ Building off [Mila432](https://github.com/Mila432/Pokemon_Go_API)'s PokemonGo AP
 
 ---
 ###Note: As of 2016-07-20, support for the first implementation 'example.py' was dropped.###
-#For instructions, please refer to [the wiki](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki)#
+##For instructions, please refer to [the wiki](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki)##
 
 Hello Paul Xu the Internship king ;)
