@@ -4,17 +4,16 @@
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            <title>Pokemap</title>
+            <title>Pokémap</title>
     </head>
     <body>
-        <h1>Pokemap</h1>
+        <h1>Pokémap</h1>
         <div id="fullmap" style='height:100%;width:100%;top:0;left:0;position:absolute;z-index:200;'>
             {{ fullmap.html }}
 
         </div>
-        
-
     </body>
+
 {{ fullmap.js }}
 <!-- Webdesign 101: scripts at the end make the page load faster -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -48,10 +47,9 @@
         });
     };
 
-    window.setInterval(setLabelTime, 1000);
-
-  
+    window.setInterval(setLabelTime, 1000);  
   </script>
+
   {% if auto_refresh %}
     <script type="text/javascript">
         var baseURL = location.protocol + "//" + location.hostname + (location.port ? ":"+location.port: "");
